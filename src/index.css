@@ -1,13 +1,205 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Quicksand";
+  color: #757575;
+  font-weight: 600;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1 {
+  color: rgb(22 78 99);
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  transition: ease-in-out 150ms;
+  -webkit-transition: ease-in-out 150ms;
+  -moz-transition: ease-in-out 150ms;
+  -ms-transition: ease-in-out 150ms;
+  -o-transition: ease-in-out 150ms;
+}
+
+.navbar a:hover {
+  color: rgb(22 78 99);
+}
+
+.navbar .addBlogBtn {
+  color: #fff;
+  background-color: rgb(22 78 99);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbar .addBlogBtn:hover {
+  color: #fff;
+  background-color: rgba(22, 78, 99, 0.5);
+  cursor: pointer;
+}
+
+.content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 35px 0;
+  border-bottom: 1px solid #a5a5a5;
+  transition: ease-in-out 200ms;
+  -webkit-transition: ease-in-out 200ms;
+  -moz-transition: ease-in-out 200ms;
+  -ms-transition: ease-in-out 200ms;
+  -o-transition: ease-in-out 200ms;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.blog-preview:hover {
+  box-shadow: 1px 3px 15px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.blog-preview h2 {
+  font-size: 1.5rem;
+  color: rgb(22 78 99);
+  margin-bottom: 15px;
+}
+
+.blog-preview a {
+  text-decoration: none;
+}
+
+/* Blog details */
+.blog-details h2 {
+  font-size: 1.25rem;
+  color: rgb(22 78 99);
+  margin-bottom: 10px;
+}
+
+.blog-details div {
+  margin: 20px 0;
+}
+
+.blog-details button {
+  background-color: rgb(22 78 99);
+  color: #fff;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+}
+
+.blog-details button:hover {
+  color: #fff;
+  background-color: rgba(22, 78, 99, 0.5);
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+}
+
+.create h2 {
+  font-size: 1.25rem;
+  color: rgb(22 78 99);
+  margin-bottom: 30px;
+}
+
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.create textarea {
+  min-height: 200px;
+}
+
+.create button {
+  margin-top: 10px;
+  background-color: rgb(22 78 99);
+  color: #fff;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+  transition: ease-in-out 150ms;
+  -webkit-transition: ease-in-out 150ms;
+  -moz-transition: ease-in-out 150ms;
+  -ms-transition: ease-in-out 150ms;
+  -o-transition: ease-in-out 150ms;
+}
+
+.create button:hover {
+  color: #fff;
+  background-color: rgba(22, 78, 99, 0.5);
+}
+
+/* 404 Not Found */
+.not-found {
+  max-width: 1200px;
+  text-align: center;
+}
+
+.not-found h2 {
+  margin-bottom: 15px;
+}
+
+.not-found p {
+  margin-bottom: 15px;
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  margin-bottom: 20px;
 }

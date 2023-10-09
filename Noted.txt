@@ -1,0 +1,5 @@
+How to run react app? 
+-> npm run start
+
+How to run dummy database? 
+-> npx json-server --watch data/db.json --port 8000

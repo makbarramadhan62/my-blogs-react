@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "Welcome to my Blog",
+      "body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias cum nisi, corrupti nemo vitae aliquam culpa repellendus, sequi, voluptas animi autem est minima ducimus. Soluta accusantium ipsa recusandae porro excepturi? Enim placeat a quos quod dolore odio voluptate nesciunt eaque nulla voluptatibus. Velit quidem suscipit quis debitis deleniti laudantium iure rerum maiores architecto? Molestiae, molestias. Facilis nesciunt, facere maiores necessitatibus perferendis, excepturi deleniti iste qui sit exercitationem provident voluptatibus nobis ipsum non ducimus soluta hic quam molestiae sunt voluptate quod. Hic ipsum nobis quia repellendus, et, asperiores excepturi eveniet ab accusantium quis distinctio perspiciatis? Atque perspiciatis pariatur id architecto enim alias maxime unde illum adipisci nostrum recusandae velit deleniti iure perferendis quasi quos provident quis rem ab sequi debitis porro, consequuntur nisi! Ab doloremque in consectetur nobis magnam voluptatem aut odio, repellat cum quis sequi esse obcaecati, eveniet harum voluptatibus labore quibusdam neque nihil exercitationem sunt illum modi, ipsum praesentium?",
+      "author": "Hisoka",
+      "id": 2
+    },
+    {
+      "title": "Halo semuanya",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "author": "Hisoka",
+      "id": 7
+    },
+    {
+      "title": "halo",
+      "body": "hola",
+      "author": "Akbar",
+      "id": 8
+    }
+  ]
+}
